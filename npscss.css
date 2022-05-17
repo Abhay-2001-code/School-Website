@@ -1,0 +1,81 @@
+*{    
+margin: 0px; 
+   padding: 0px;  
+  box-sizing: border-box;
+}
+hr.new4 {
+  border: 3px solid darkblue;
+}
+nav{  
+  display: flex;   
+ justify-content: space-around; 
+   align-content: ; 
+   margin: 5px 8px;
+   min-height: 5vh;   
+ font-family:'Poppins', times-new-roman;
+
+}
+.ac{
+margin: 0px; 
+   padding: 10px;  
+
+}
+
+body{   
+background:url("NPS1.png") no-repeat scroll 50px 0px;;
+background-repeat: no-repeat;
+background-position: 2px 20px;
+no-repeat scroll 0 0;
+
+}  
+
+
+.nav-links{    
+display: flex;  
+ justify-content: space-around; 
+  width: 65%;
+color:white;
+cursor: pointer;
+}
+
+.nav-links li{ 
+   list-style: none;
+}
+
+.nav-links a{ 
+border: 3px solid darkblue;
+   color: rgb(0,0,0);   
+ text-decoration: none;   
+ letter-spacing: bold;    
+font-size:23px;
+padding:9px;
+}
+
+nav1 {
+  float: right;
+  width: 48%;
+  height: 260px; 
+  background: darkblue;
+  padding: 30px;
+ color:white;
+}
+
+nav2 {
+  float: right;
+  width: 55%;
+  height: 260px; 
+  padding: 30px;
+}
+a{
+  color: white;
+  text-decoration: underline;
+}
+ article {
+  float: left;
+  padding: 20px;
+  width: 45%;
+  background-color: white;
+ 
+}
+
+
